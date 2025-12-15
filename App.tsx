@@ -7,6 +7,7 @@ import { CallsScreen } from './screens/CallsScreen';
 import { LoginScreen } from './screens/LoginScreen';
 import { ProfileScreen } from './screens/ProfileScreen';
 import { BottomTabs } from './components/BottomTabs';
+import { UserData } from './types';
 
 export enum Screen {
   LOGIN = 'LOGIN',
@@ -16,13 +17,6 @@ export enum Screen {
   FILES = 'FILES',
   CALLS = 'CALLS',
   PROFILE = 'PROFILE',
-}
-
-export interface UserData {
-  id: string;
-  name: string;
-  avatar: string;
-  status: 'online' | 'offline' | 'busy';
 }
 
 const App: React.FC = () => {

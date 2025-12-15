@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '../components/Icon';
-import { UserData } from '../App';
+import { UserData } from '../types';
 
 interface WorkspaceScreenProps {
   onNavigateToChannel: (channel: { id: string; name: string }) => void;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Icon } from '../components/Icon';
-import { UserData } from '../App';
+import { UserData } from '../types';
 
 interface DirectMessageScreenProps {
   user: UserData | null;

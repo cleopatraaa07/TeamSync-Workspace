@@ -6,6 +6,13 @@ export interface User {
   badge?: number;
 }
 
+export interface UserData {
+  id: string;
+  name: string;
+  avatar: string;
+  status: 'online' | 'offline' | 'busy';
+}
+
 export interface Message {
   id: string;
   senderId: string;
